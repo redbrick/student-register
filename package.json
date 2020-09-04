@@ -1,25 +1,36 @@
 {
-  "name": "studentregister",
+  "name": "student-register",
   "version": "1.0.0",
-  "description": "",
-  "main": "importer.js",
+  "description": "import list of memeber to su database",
+  "main": "index.js",
+  "bin": {
+    "registerSU": "index.js"
+  },
   "dependencies": {
-    "dotenv": "^4.0.0",
+    "commander": "^2.11.0",
     "fs-extra": "^4.0.2",
+    "prompt": "^1.0.0",
     "puppeteer": "^0.11.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^4.6.0",
+    "eslint-config-coderdojo": "^1.0.6",
+    "eslint-plugin-chai-friendly": "^0.4.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/redbrick/studentregister.git"
+    "url": "git+https://github.com/redbrick/student-register.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Redbrick",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/redbrick/studentregister/issues"
+    "url": "https://github.com/redbrick/student-register/issues"
   },
-  "homepage": "https://github.com/redbrick/studentregister#readme"
+  "homepage": "https://github.com/redbrick/student-register#readme"
 }
